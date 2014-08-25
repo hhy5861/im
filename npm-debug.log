@@ -1,0 +1,883 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Soft\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Soft\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'socket.io' ]
+2 info using npm@1.2.21
+3 info using node@v0.10.7
+4 verbose node symlink D:\Soft\nodejs\\node.exe
+5 verbose read json D:\Soft\nodejs\testnodejs\webim\package.json
+6 warn package.json dev@0.0.1 No repository field.
+7 warn package.json dev@0.0.1 No readme data.
+8 verbose read json D:\Soft\nodejs\testnodejs\webim\node_modules\express\package.json
+9 verbose from cache D:\Soft\nodejs\testnodejs\webim\package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'socket.io@>=0.9', null ]
+12 verbose cache add name=undefined spec="socket.io@>=0.9" args=["socket.io@>=0.9",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'socket.io@%3E=0.9',
+13 verbose parsed url   path: 'socket.io@%3E=0.9',
+13 verbose parsed url   href: 'socket.io@%3E=0.9' }
+14 verbose cache add name="socket.io" spec=">=0.9" args=["socket.io",">=0.9"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '%3E=0.9',
+15 verbose parsed url   path: '%3E=0.9',
+15 verbose parsed url   href: '%3E=0.9' }
+16 verbose addNamed [ 'socket.io', '>=0.9' ]
+17 verbose addNamed [ null, '>=0.9.0-' ]
+18 silly lockFile 88cefbee-socket-io-0-9 socket.io@>=0.9
+19 verbose lock socket.io@>=0.9 C:\Documents and Settings\Administrator\Application Data\npm-cache\88cefbee-socket-io-0-9.lock
+20 silly addNameRange { name: 'socket.io', range: '>=0.9.0-', hasData: false }
+21 verbose url raw socket.io
+22 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+23 verbose url resolved https://registry.npmjs.org/socket.io
+24 info trying registry request attempt 1 at 15:04:07
+25 verbose etag "33Y46V4LENN0BQ6FE79EV9JNX"
+26 http GET https://registry.npmjs.org/socket.io
+27 http 200 https://registry.npmjs.org/socket.io
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Thu, 27 Mar 2014 07:04:04 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+28 silly registry.get     etag: '"CS66FDCP57IZWL2ZDSYGGCDJT"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=1',
+28 silly registry.get     'content-length': '78297',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     age: '150',
+28 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-ty66-TYO',
+28 silly registry.get     'x-cache': 'MISS, HIT',
+28 silly registry.get     'x-cache-hits': '1, 1',
+28 silly registry.get     'x-timer': 'S1395899396.463674307,VS0,VS628,VE908,VE4447920',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'socket.io', range: '>=0.9.0-', hasData: true }
+30 silly addNameRange versions [ 'socket.io',
+30 silly addNameRange   [ '0.3.8',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.5.1',
+30 silly addNameRange     '0.5.3',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.6.1',
+30 silly addNameRange     '0.6.3',
+30 silly addNameRange     '0.6.4',
+30 silly addNameRange     '0.6.5',
+30 silly addNameRange     '0.6.6',
+30 silly addNameRange     '0.6.7',
+30 silly addNameRange     '0.6.8',
+30 silly addNameRange     '0.6.9',
+30 silly addNameRange     '0.6.10',
+30 silly addNameRange     '0.6.11',
+30 silly addNameRange     '0.6.12',
+30 silly addNameRange     '0.6.14',
+30 silly addNameRange     '0.6.15',
+30 silly addNameRange     '0.6.16',
+30 silly addNameRange     '0.6.17',
+30 silly addNameRange     '0.6.18',
+30 silly addNameRange     '0.7.0',
+30 silly addNameRange     '0.7.1',
+30 silly addNameRange     '0.7.2',
+30 silly addNameRange     '0.7.3',
+30 silly addNameRange     '0.7.4',
+30 silly addNameRange     '0.7.5',
+30 silly addNameRange     '0.7.6',
+30 silly addNameRange     '0.7.7',
+30 silly addNameRange     '0.7.8',
+30 silly addNameRange     '0.7.9',
+30 silly addNameRange     '0.7.10',
+30 silly addNameRange     '0.7.11',
+30 silly addNameRange     '0.8.0',
+30 silly addNameRange     '0.8.1',
+30 silly addNameRange     '0.8.2',
+30 silly addNameRange     '0.8.3',
+30 silly addNameRange     '0.8.4',
+30 silly addNameRange     '0.8.5',
+30 silly addNameRange     '0.8.6',
+30 silly addNameRange     '0.8.7',
+30 silly addNameRange     '0.9.0',
+30 silly addNameRange     '0.9.1',
+30 silly addNameRange     '0.9.1-1',
+30 silly addNameRange     '0.9.2',
+30 silly addNameRange     '0.9.3',
+30 silly addNameRange     '0.9.4',
+30 silly addNameRange     '0.9.5',
+30 silly addNameRange     '0.9.6',
+30 silly addNameRange     '0.9.7',
+30 silly addNameRange     '0.9.8',
+30 silly addNameRange     '0.9.9',
+30 silly addNameRange     '0.9.10',
+30 silly addNameRange     '0.9.11',
+30 silly addNameRange     '0.9.12',
+30 silly addNameRange     '0.9.13',
+30 silly addNameRange     '0.9.14',
+30 silly addNameRange     '0.9.15',
+30 silly addNameRange     '0.9.16',
+30 silly addNameRange     '1.0.0-pre' ] ]
+31 verbose addNamed [ 'socket.io', '0.9.16' ]
+32 verbose addNamed [ '0.9.16', '0.9.16' ]
+33 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+34 verbose lock socket.io@0.9.16 C:\Documents and Settings\Administrator\Application Data\npm-cache\a7acce22-socket-io-0-9-16.lock
+35 verbose read json C:\Documents and Settings\Administrator\Application Data\npm-cache\socket.io\0.9.16\package\package.json
+36 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+37 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+38 silly lockFile 88cefbee-socket-io-0-9 socket.io@>=0.9
+39 silly lockFile 88cefbee-socket-io-0-9 socket.io@>=0.9
+40 silly resolved [ { name: 'socket.io',
+40 silly resolved     version: '0.9.16',
+40 silly resolved     description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+40 silly resolved     homepage: 'http://socket.io',
+40 silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+40 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+40 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+40 silly resolved     repository:
+40 silly resolved      { type: 'git',
+40 silly resolved        url: 'https://github.com/LearnBoost/socket.io.git' },
+40 silly resolved     dependencies:
+40 silly resolved      { 'socket.io-client': '0.9.16',
+40 silly resolved        policyfile: '0.0.4',
+40 silly resolved        base64id: '0.1.0',
+40 silly resolved        redis: '0.7.3' },
+40 silly resolved     devDependencies:
+40 silly resolved      { expresso: '0.9.2',
+40 silly resolved        should: '*',
+40 silly resolved        benchmark: '0.2.2',
+40 silly resolved        microtime: '0.1.3-1',
+40 silly resolved        colors: '0.5.1' },
+40 silly resolved     optionalDependencies: { redis: '0.7.3' },
+40 silly resolved     main: 'index',
+40 silly resolved     engines: { node: '>= 0.4.0' },
+40 silly resolved     scripts: { test: 'make test' },
+40 silly resolved     readme: '# Socket.IO\n\nSocket.IO is a Node.JS project that makes WebSockets and realtime possible in\nall browsers. It also enhances WebSockets by providing built-in multiplexing,\nhorizontal scalability, automatic JSON encoding/decoding, and more.\n\n## How to Install\n\n```bash\nnpm install socket.io\n```\n\n## How to use\n\nFirst, require `socket.io`:\n\n```js\nvar io = require(\'socket.io\');\n```\n\nNext, attach it to a HTTP/HTTPS server. If you\'re using the fantastic `express`\nweb framework:\n\n#### Express 3.x\n\n```js\nvar app = express()\n  , server = require(\'http\').createServer(app)\n  , io = io.listen(server);\n\nserver.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\n#### Express 2.x\n\n```js\nvar app = express.createServer()\n  , io = io.listen(app);\n\napp.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\nFinally, load it from the client side code:\n\n```html\n<script src="/socket.io/socket.io.js"></script>\n<script>\n  var socket = io.connect(\'http://localhost\');\n  socket.on(\'news\', function (data) {\n    console.log(data);\n    socket.emit(\'my other event\', { my: \'data\' });\n  });\n</script>\n```\n\nFor more thorough examples, look at the `examples/` directory.\n\n## Short recipes\n\n### Sending and receiving events.\n\nSocket.IO allows you to emit and receive custom events.\nBesides `connect`, `message` and `disconnect`, you can emit custom events:\n\n```js\n// note, io.listen(<port>) will create a http server for you\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  io.sockets.emit(\'this\', { will: \'be received by everyone\' });\n\n  socket.on(\'private message\', function (from, msg) {\n    console.log(\'I received a private message by \', from, \' saying \', msg);\n  });\n\n  socket.on(\'disconnect\', function () {\n    io.sockets.emit(\'user disconnected\');\n  });\n});\n```\n\n### Storing data associated to a client\n\nSometimes it\'s necessary to store data associated with a client that\'s\nnecessary for the duration of the session.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'set nickname\', function (name) {\n    socket.set(\'nickname\', name, function () { socket.emit(\'ready\'); });\n  });\n\n  socket.on(\'msg\', function () {\n    socket.get(\'nickname\', function (err, name) {\n      console.log(\'Chat message by \', name);\n    });\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost\');\n\n  socket.on(\'connect\', function () {\n    socket.emit(\'set nickname\', prompt(\'What is your nickname?\'));\n    socket.on(\'ready\', function () {\n      console.log(\'Connected !\');\n      socket.emit(\'msg\', prompt(\'What is your message?\'));\n    });\n  });\n</script>\n```\n\n### Restricting yourself to a namespace\n\nIf you have control over all the messages and events emitted for a particular\napplication, using the default `/` namespace works.\n\nIf you want to leverage 3rd-party code, or produce code to share with others,\nsocket.io provides a way of namespacing a `socket`.\n\nThis has the benefit of `multiplexing` a single connection. Instead of\nsocket.io using two `WebSocket` connections, it\'ll use one.\n\nThe following example defines a socket that listens on \'/chat\' and one for\n\'/news\':\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nvar chat = io\n  .of(\'/chat\')\n  .on(\'connection\', function (socket) {\n    socket.emit(\'a message\', { that: \'only\', \'/chat\': \'will get\' });\n    chat.emit(\'a message\', { everyone: \'in\', \'/chat\': \'will get\' });\n  });\n\nvar news = io\n  .of(\'/news\');\n  .on(\'connection\', function (socket) {\n    socket.emit(\'item\', { news: \'item\' });\n  });\n```\n\n#### Client side:\n\n```html\n<script>\n  var chat = io.connect(\'http://localhost/chat\')\n    , news = io.connect(\'http://localhost/news\');\n\n  chat.on(\'connect\', function () {\n    chat.emit(\'hi!\');\n  });\n\n  news.on(\'news\', function () {\n    news.emit(\'woot\');\n  });\n</script>\n```\n\n### Sending volatile messages.\n\nSometimes certain messages can be dropped. Let\'s say you have an app that\nshows realtime tweets for the keyword `bieber`. \n\nIf a certain client is not ready to receive messages (because of network slowness\nor other issues, or because he\'s connected through long polling and is in the\nmiddle of a request-response cycle), if he doesn\'t receive ALL the tweets related\nto bieber your application won\'t suffer.\n\nIn that case, you might want to send those messages as volatile messages.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  var tweets = setInterval(function () {\n    getBieberTweet(function (tweet) {\n      socket.volatile.emit(\'bieber tweet\', tweet);\n    });\n  }, 100);\n\n  socket.on(\'disconnect\', function () {\n    clearInterval(tweets);\n  });\n});\n```\n\n#### Client side\n\nIn the client side, messages are received the same way whether they\'re volatile\nor not.\n\n### Getting acknowledgements\n\nSometimes, you might want to get a callback when the client confirmed the message\nreception.\n\nTo do this, simply pass a function as the last parameter of `.send` or `.emit`.\nWhat\'s more, when you use `.emit`, the acknowledgement is done by you, which\nmeans you can also pass data along:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'ferret\', function (name, fn) {\n    fn(\'woot\');\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(); // TIP: .connect with no args does auto-discovery\n  socket.on(\'connect\', function () { // TIP: you can avoid listening on `connect` and listen on events directly too!\n    socket.emit(\'ferret\', \'tobi\', function (data) {\n      console.log(data); // data will be \'woot\'\n    });\n  });\n</script>\n```\n\n### Broadcasting messages\n\nTo broadcast, simply add a `broadcast` flag to `emit` and `send` method calls.\nBroadcasting means sending a message to everyone else except for the socket\nthat starts it.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.broadcast.emit(\'user connected\');\n  socket.broadcast.json.send({ a: \'message\' });\n});\n```\n\n### Rooms\n\nSometimes you want to put certain sockets in the same room, so that it\'s easy\nto broadcast to all of them together.\n\nThink of this as built-in channels for sockets. Sockets `join` and `leave`\nrooms in each socket.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.join(\'justin bieber fans\');\n  socket.broadcast.to(\'justin bieber fans\').emit(\'new fan\');\n  io.sockets.in(\'rammstein fans\').emit(\'new non-fan\');\n});\n```\n\n### Using it just as a cross-browser WebSocket\n\nIf you just want the WebSocket semantics, you can do that too.\nSimply leverage `send` and listen on the `message` event:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'message\', function () { });\n  socket.on(\'disconnect\', function () { });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost/\');\n  socket.on(\'connect\', function () {\n    socket.send(\'hi\');\n\n    socket.on(\'message\', function (msg) {\n      // my msg\n    });\n  });\n</script>\n```\n\n### Changing configuration\n\nConfiguration in socket.io is TJ-style:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.configure(function () {\n  io.set(\'transports\', [\'websocket\', \'flashsocket\', \'xhr-polling\']);\n});\n\nio.configure(\'development\', function () {\n  io.set(\'transports\', [\'websocket\', \'xhr-polling\']);\n  io.enable(\'log\');\n});\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 Guillermo Rauch &lt;guillermo@learnboost.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+40 silly resolved     readmeFilename: 'Readme.md',
+40 silly resolved     bugs: { url: 'https://github.com/LearnBoost/socket.io/issues' },
+40 silly resolved     _id: 'socket.io@0.9.16',
+40 silly resolved     _from: 'socket.io@>=0.9' } ]
+41 info install socket.io@0.9.16 into D:\Soft\nodejs\testnodejs\webim
+42 info installOne socket.io@0.9.16
+43 verbose from cache C:\Documents and Settings\Administrator\Application Data\npm-cache\socket.io\0.9.16\package\package.json
+44 info D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io unbuild
+45 verbose read json D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io\package.json
+46 verbose tar unpack C:\Documents and Settings\Administrator\Application Data\npm-cache\socket.io\0.9.16\package.tgz
+47 silly lockFile 88f1e2ad-ejs-webim-node-modules-socket-io D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io
+48 verbose lock D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io C:\Documents and Settings\Administrator\Application Data\npm-cache\88f1e2ad-ejs-webim-node-modules-socket-io.lock
+49 silly lockFile 918fa7fd-che-socket-io-0-9-16-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\socket.io\0.9.16\package.tgz
+50 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\socket.io\0.9.16\package.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\918fa7fd-che-socket-io-0-9-16-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+54 silly gunzTarPerm extractEntry .npmignore
+55 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+56 silly gunzTarPerm extractEntry LICENSE
+57 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+58 silly gunzTarPerm extractEntry index.js
+59 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry .travis.yml
+61 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+62 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+63 silly gunzTarPerm modified mode [ 'benchmarks/decode.bench.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+65 silly gunzTarPerm modified mode [ 'benchmarks/encode.bench.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry benchmarks/runner.js
+67 silly gunzTarPerm modified mode [ 'benchmarks/runner.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry History.md
+69 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+70 silly gunzTarPerm extractEntry lib/logger.js
+71 silly gunzTarPerm modified mode [ 'lib/logger.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry lib/namespace.js
+73 silly gunzTarPerm modified mode [ 'lib/namespace.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry lib/parser.js
+75 silly gunzTarPerm modified mode [ 'lib/parser.js', 438, 420 ]
+76 silly gunzTarPerm extractEntry lib/socket.io.js
+77 silly gunzTarPerm modified mode [ 'lib/socket.io.js', 438, 420 ]
+78 silly gunzTarPerm extractEntry lib/socket.js
+79 silly gunzTarPerm modified mode [ 'lib/socket.js', 438, 420 ]
+80 silly gunzTarPerm extractEntry lib/manager.js
+81 silly gunzTarPerm modified mode [ 'lib/manager.js', 438, 420 ]
+82 silly gunzTarPerm extractEntry lib/store.js
+83 silly gunzTarPerm modified mode [ 'lib/store.js', 438, 420 ]
+84 silly gunzTarPerm extractEntry lib/transport.js
+85 silly gunzTarPerm modified mode [ 'lib/transport.js', 438, 420 ]
+86 silly gunzTarPerm extractEntry lib/util.js
+87 silly gunzTarPerm modified mode [ 'lib/util.js', 438, 420 ]
+88 silly gunzTarPerm extractEntry lib/static.js
+89 silly gunzTarPerm modified mode [ 'lib/static.js', 438, 420 ]
+90 silly gunzTarPerm extractEntry lib/stores/memory.js
+91 silly gunzTarPerm modified mode [ 'lib/stores/memory.js', 438, 420 ]
+92 silly gunzTarPerm extractEntry lib/stores/redis.js
+93 silly gunzTarPerm modified mode [ 'lib/stores/redis.js', 438, 420 ]
+94 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+95 silly gunzTarPerm modified mode [ 'lib/transports/flashsocket.js', 438, 420 ]
+96 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+97 silly gunzTarPerm modified mode [ 'lib/transports/htmlfile.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+99 silly gunzTarPerm modified mode [ 'lib/transports/http-polling.js', 438, 420 ]
+100 silly gunzTarPerm extractEntry lib/transports/http.js
+101 silly gunzTarPerm modified mode [ 'lib/transports/http.js', 438, 420 ]
+102 silly gunzTarPerm extractEntry lib/transports/index.js
+103 silly gunzTarPerm modified mode [ 'lib/transports/index.js', 438, 420 ]
+104 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+105 silly gunzTarPerm modified mode [ 'lib/transports/jsonp-polling.js', 438, 420 ]
+106 silly gunzTarPerm extractEntry lib/transports/websocket.js
+107 silly gunzTarPerm modified mode [ 'lib/transports/websocket.js', 438, 420 ]
+108 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+109 silly gunzTarPerm modified mode [ 'lib/transports/xhr-polling.js', 438, 420 ]
+110 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+111 silly gunzTarPerm modified mode [ 'lib/transports/websocket/default.js', 438, 420 ]
+112 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+113 silly gunzTarPerm modified mode [ 'lib/transports/websocket/hybi-07-12.js', 438, 420 ]
+114 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+115 silly gunzTarPerm modified mode [ 'lib/transports/websocket/hybi-16.js', 438, 420 ]
+116 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+117 silly gunzTarPerm modified mode [ 'lib/transports/websocket/index.js', 438, 420 ]
+118 silly gunzTarPerm extractEntry Makefile
+119 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+120 silly gunzTarPerm extractEntry Readme.md
+121 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+122 verbose read json D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io\package.json
+123 silly lockFile 88f1e2ad-ejs-webim-node-modules-socket-io D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io
+124 silly lockFile 88f1e2ad-ejs-webim-node-modules-socket-io D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io
+125 silly lockFile 918fa7fd-che-socket-io-0-9-16-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\socket.io\0.9.16\package.tgz
+126 silly lockFile 918fa7fd-che-socket-io-0-9-16-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\socket.io\0.9.16\package.tgz
+127 info preinstall socket.io@0.9.16
+128 verbose from cache D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io\package.json
+129 verbose readDependencies using package.json deps
+130 verbose from cache D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io\package.json
+131 verbose readDependencies using package.json deps
+132 verbose cache add [ 'socket.io-client@0.9.16', null ]
+133 verbose cache add name=undefined spec="socket.io-client@0.9.16" args=["socket.io-client@0.9.16",null]
+134 verbose parsed url { protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: 'socket.io-client@0.9.16',
+134 verbose parsed url   path: 'socket.io-client@0.9.16',
+134 verbose parsed url   href: 'socket.io-client@0.9.16' }
+135 verbose cache add name="socket.io-client" spec="0.9.16" args=["socket.io-client","0.9.16"]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: '0.9.16',
+136 verbose parsed url   path: '0.9.16',
+136 verbose parsed url   href: '0.9.16' }
+137 verbose addNamed [ 'socket.io-client', '0.9.16' ]
+138 verbose addNamed [ '0.9.16', '0.9.16' ]
+139 silly lockFile c81dc0af-socket-io-client-0-9-16 socket.io-client@0.9.16
+140 verbose lock socket.io-client@0.9.16 C:\Documents and Settings\Administrator\Application Data\npm-cache\c81dc0af-socket-io-client-0-9-16.lock
+141 verbose cache add [ 'policyfile@0.0.4', null ]
+142 verbose cache add name=undefined spec="policyfile@0.0.4" args=["policyfile@0.0.4",null]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: 'policyfile@0.0.4',
+143 verbose parsed url   path: 'policyfile@0.0.4',
+143 verbose parsed url   href: 'policyfile@0.0.4' }
+144 verbose cache add name="policyfile" spec="0.0.4" args=["policyfile","0.0.4"]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: '0.0.4',
+145 verbose parsed url   path: '0.0.4',
+145 verbose parsed url   href: '0.0.4' }
+146 verbose addNamed [ 'policyfile', '0.0.4' ]
+147 verbose addNamed [ '0.0.4', '0.0.4' ]
+148 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+149 verbose lock policyfile@0.0.4 C:\Documents and Settings\Administrator\Application Data\npm-cache\8b99131a-policyfile-0-0-4.lock
+150 verbose cache add [ 'base64id@0.1.0', null ]
+151 verbose cache add name=undefined spec="base64id@0.1.0" args=["base64id@0.1.0",null]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: 'base64id@0.1.0',
+152 verbose parsed url   path: 'base64id@0.1.0',
+152 verbose parsed url   href: 'base64id@0.1.0' }
+153 verbose cache add name="base64id" spec="0.1.0" args=["base64id","0.1.0"]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: '0.1.0',
+154 verbose parsed url   path: '0.1.0',
+154 verbose parsed url   href: '0.1.0' }
+155 verbose addNamed [ 'base64id', '0.1.0' ]
+156 verbose addNamed [ '0.1.0', '0.1.0' ]
+157 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+158 verbose lock base64id@0.1.0 C:\Documents and Settings\Administrator\Application Data\npm-cache\b2185bf4-base64id-0-1-0.lock
+159 verbose cache add [ 'redis@0.7.3', null ]
+160 verbose cache add name=undefined spec="redis@0.7.3" args=["redis@0.7.3",null]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: 'redis@0.7.3',
+161 verbose parsed url   path: 'redis@0.7.3',
+161 verbose parsed url   href: 'redis@0.7.3' }
+162 verbose cache add name="redis" spec="0.7.3" args=["redis","0.7.3"]
+163 verbose parsed url { protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: '0.7.3',
+163 verbose parsed url   path: '0.7.3',
+163 verbose parsed url   href: '0.7.3' }
+164 verbose addNamed [ 'redis', '0.7.3' ]
+165 verbose addNamed [ '0.7.3', '0.7.3' ]
+166 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+167 verbose lock redis@0.7.3 C:\Documents and Settings\Administrator\Application Data\npm-cache\10399cfa-redis-0-7-3.lock
+168 verbose url raw socket.io-client/0.9.16
+169 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-client/0.9.16' ]
+170 verbose url resolved https://registry.npmjs.org/socket.io-client/0.9.16
+171 info trying registry request attempt 1 at 15:04:16
+172 verbose etag "48K4DPDE5851FDNEJQ3WETQ07"
+173 http GET https://registry.npmjs.org/socket.io-client/0.9.16
+174 verbose url raw policyfile/0.0.4
+175 verbose url resolving [ 'https://registry.npmjs.org/', './policyfile/0.0.4' ]
+176 verbose url resolved https://registry.npmjs.org/policyfile/0.0.4
+177 info trying registry request attempt 1 at 15:04:16
+178 verbose etag "EQQXYDZ0BJGG3E5IVIRAEV9J"
+179 http GET https://registry.npmjs.org/policyfile/0.0.4
+180 verbose url raw base64id/0.1.0
+181 verbose url resolving [ 'https://registry.npmjs.org/', './base64id/0.1.0' ]
+182 verbose url resolved https://registry.npmjs.org/base64id/0.1.0
+183 info trying registry request attempt 1 at 15:04:16
+184 verbose etag "CTLQBM2XI54YVEFGWA4X7AK4Y"
+185 http GET https://registry.npmjs.org/base64id/0.1.0
+186 verbose url raw redis/0.7.3
+187 verbose url resolving [ 'https://registry.npmjs.org/', './redis/0.7.3' ]
+188 verbose url resolved https://registry.npmjs.org/redis/0.7.3
+189 info trying registry request attempt 1 at 15:04:16
+190 verbose etag "ES9FUMK6H7JT3XQLHMLDKNVP"
+191 http GET https://registry.npmjs.org/redis/0.7.3
+192 http 200 https://registry.npmjs.org/base64id/0.1.0
+193 silly registry.get cb [ 200,
+193 silly registry.get   { date: 'Thu, 27 Mar 2014 07:04:08 GMT',
+193 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+193 silly registry.get     etag: '"2CCBJX0ZD0TPFRHRQCKME0FFP"',
+193 silly registry.get     'content-type': 'application/json',
+193 silly registry.get     via: '1.1 varnish',
+193 silly registry.get     'cache-control': 'max-age=1',
+193 silly registry.get     'content-length': '780',
+193 silly registry.get     'accept-ranges': 'bytes',
+193 silly registry.get     age: '93',
+193 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-ty68-TYO',
+193 silly registry.get     'x-cache': 'HIT, HIT',
+193 silly registry.get     'x-cache-hits': '21999, 1',
+193 silly registry.get     'x-timer': 'S1395873447.648895741,VS0,VS-709,VE-709,VE30401322',
+193 silly registry.get     vary: 'Accept',
+193 silly registry.get     'keep-alive': 'timeout=10, max=50',
+193 silly registry.get     connection: 'Keep-Alive' } ]
+194 silly lockFile 25dd8f34--org-base64id-base64id-0-1-0-tgz https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz
+195 verbose lock https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\25dd8f34--org-base64id-base64id-0-1-0-tgz.lock
+196 verbose addRemoteTarball [ 'https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz',
+196 verbose addRemoteTarball   '02ce0fdeee0cef4f40080e1e73e834f0b1bfce3f' ]
+197 info retry fetch attempt 1 at 15:04:19
+198 verbose fetch to= C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\tmp.tgz
+199 http GET https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz
+200 http 200 https://registry.npmjs.org/redis/0.7.3
+201 silly registry.get cb [ 200,
+201 silly registry.get   { date: 'Thu, 27 Mar 2014 07:04:09 GMT',
+201 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+201 silly registry.get     etag: '"BQJ3AU3YWQMCVV8GUV6AC3WJZ"',
+201 silly registry.get     'content-type': 'application/json',
+201 silly registry.get     via: '1.1 varnish',
+201 silly registry.get     'cache-control': 'max-age=1',
+201 silly registry.get     'content-length': '728',
+201 silly registry.get     'accept-ranges': 'bytes',
+201 silly registry.get     age: '94',
+201 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-ty68-TYO',
+201 silly registry.get     'x-cache': 'MISS, HIT',
+201 silly registry.get     'x-cache-hits': '0, 1',
+201 silly registry.get     'x-timer': 'S1395892745.654118061,VS0,VS-78,VE-59,VE11104161',
+201 silly registry.get     vary: 'Accept',
+201 silly registry.get     'keep-alive': 'timeout=10, max=50',
+201 silly registry.get     connection: 'Keep-Alive' } ]
+202 silly lockFile c3ea32a4--npmjs-org-redis-redis-0-7-3-tgz https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+203 verbose lock https://registry.npmjs.org/redis/-/redis-0.7.3.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\c3ea32a4--npmjs-org-redis-redis-0-7-3-tgz.lock
+204 verbose addRemoteTarball [ 'https://registry.npmjs.org/redis/-/redis-0.7.3.tgz',
+204 verbose addRemoteTarball   'ee57b7a44d25ec1594e44365d8165fa7d1d4811a' ]
+205 info retry fetch attempt 1 at 15:04:20
+206 verbose fetch to= C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\tmp.tgz
+207 http GET https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+208 http 200 https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+209 verbose tar unpack C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\tmp.tgz
+210 silly lockFile 81aafa25-860711-0-102591831702739-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package
+211 verbose lock C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package C:\Documents and Settings\Administrator\Application Data\npm-cache\81aafa25-860711-0-102591831702739-package.lock
+212 silly lockFile e4cb6f6d-860711-0-102591831702739-tmp-tgz C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\tmp.tgz
+213 verbose lock C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\tmp.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\e4cb6f6d-860711-0-102591831702739-tmp-tgz.lock
+214 silly gunzTarPerm modes [ '755', '644' ]
+215 silly gunzTarPerm extractEntry package.json
+216 silly gunzTarPerm extractEntry .npmignore
+217 silly gunzTarPerm extractEntry README.md
+218 silly gunzTarPerm extractEntry diff_multi_bench_output.js
+219 silly gunzTarPerm extractEntry generate_commands.js
+220 silly gunzTarPerm extractEntry multi_bench.js
+221 silly gunzTarPerm extractEntry mem.js
+222 silly gunzTarPerm extractEntry test.js
+223 silly gunzTarPerm extractEntry index.js
+224 silly gunzTarPerm extractEntry lib/commands.js
+225 silly gunzTarPerm extractEntry lib/queue.js
+226 silly gunzTarPerm extractEntry lib/to_array.js
+227 silly gunzTarPerm extractEntry lib/util.js
+228 silly gunzTarPerm extractEntry lib/parser/hiredis.js
+229 silly gunzTarPerm extractEntry lib/parser/javascript.js
+230 silly gunzTarPerm extractEntry benches/buffer_bench.js
+231 silly gunzTarPerm extractEntry benches/hiredis_parser.js
+232 silly gunzTarPerm extractEntry benches/re_sub_test.js
+233 silly gunzTarPerm extractEntry benches/reconnect_test.js
+234 silly gunzTarPerm extractEntry benches/sub_quit_test.js
+235 silly gunzTarPerm extractEntry benches/stress/codec.js
+236 silly gunzTarPerm extractEntry benches/stress/pubsub/pub.js
+237 silly gunzTarPerm extractEntry benches/stress/pubsub/server.js
+238 silly gunzTarPerm extractEntry benches/stress/pubsub/run
+239 silly gunzTarPerm extractEntry benches/stress/rpushblpop/pub.js
+240 silly gunzTarPerm extractEntry benches/stress/rpushblpop/server.js
+241 silly gunzTarPerm extractEntry benches/stress/rpushblpop/run
+242 silly gunzTarPerm extractEntry benches/stress/speed/speed.js
+243 silly gunzTarPerm extractEntry benches/stress/speed/00
+244 silly gunzTarPerm extractEntry benches/stress/speed/plot
+245 silly gunzTarPerm extractEntry benches/stress/speed/size-rate.png
+246 silly gunzTarPerm extractEntry examples/auth.js
+247 silly gunzTarPerm extractEntry examples/mget.js
+248 silly gunzTarPerm extractEntry examples/monitor.js
+249 silly gunzTarPerm extractEntry examples/multi.js
+250 silly gunzTarPerm extractEntry examples/file.js
+251 silly gunzTarPerm extractEntry examples/psubscribe.js
+252 silly gunzTarPerm extractEntry examples/pub_sub.js
+253 silly gunzTarPerm extractEntry examples/simple.js
+254 silly gunzTarPerm extractEntry examples/sort.js
+255 silly gunzTarPerm extractEntry examples/subqueries.js
+256 silly gunzTarPerm extractEntry examples/extend.js
+257 silly gunzTarPerm extractEntry examples/subquery.js
+258 silly gunzTarPerm extractEntry examples/eval.js
+259 silly gunzTarPerm extractEntry examples/unix_socket.js
+260 silly gunzTarPerm extractEntry examples/backpressure_drain.js
+261 silly gunzTarPerm extractEntry examples/web_server.js
+262 silly gunzTarPerm extractEntry examples/multi2.js
+263 silly gunzTarPerm extractEntry changelog.md
+264 verbose read json C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package\package.json
+265 silly lockFile 81aafa25-860711-0-102591831702739-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package
+266 silly lockFile 81aafa25-860711-0-102591831702739-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package
+267 silly lockFile e4cb6f6d-860711-0-102591831702739-tmp-tgz C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\tmp.tgz
+268 silly lockFile e4cb6f6d-860711-0-102591831702739-tmp-tgz C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\tmp.tgz
+269 verbose from cache C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package\package.json
+270 verbose tar pack [ 'C:\\Documents and Settings\\Administrator\\Application Data\\npm-cache\\redis\\0.7.3\\package.tgz',
+270 verbose tar pack   'C:\\DOCUME~1\\ADMINI~1\\LOCALS~1\\Temp\\npm-1580\\1395903860711-0.102591831702739\\package' ]
+271 verbose tarball C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz
+272 verbose folder C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package
+273 silly lockFile 81aafa25-860711-0-102591831702739-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package
+274 verbose lock C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package C:\Documents and Settings\Administrator\Application Data\npm-cache\81aafa25-860711-0-102591831702739-package.lock
+275 silly lockFile ea19f368-pm-cache-redis-0-7-3-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz
+276 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\ea19f368-pm-cache-redis-0-7-3-package-tgz.lock
+277 silly lockFile 81aafa25-860711-0-102591831702739-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package
+278 silly lockFile 81aafa25-860711-0-102591831702739-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903860711-0.102591831702739\package
+279 silly lockFile ea19f368-pm-cache-redis-0-7-3-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz
+280 silly lockFile ea19f368-pm-cache-redis-0-7-3-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz
+281 silly lockFile 7f3dc7df-ta-npm-cache-redis-0-7-3-package C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package
+282 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package C:\Documents and Settings\Administrator\Application Data\npm-cache\7f3dc7df-ta-npm-cache-redis-0-7-3-package.lock
+283 silly lockFile 7f3dc7df-ta-npm-cache-redis-0-7-3-package C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package
+284 silly lockFile 7f3dc7df-ta-npm-cache-redis-0-7-3-package C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package
+285 verbose tar unpack C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz
+286 silly lockFile 7f3dc7df-ta-npm-cache-redis-0-7-3-package C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package
+287 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package C:\Documents and Settings\Administrator\Application Data\npm-cache\7f3dc7df-ta-npm-cache-redis-0-7-3-package.lock
+288 silly lockFile ea19f368-pm-cache-redis-0-7-3-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz
+289 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\ea19f368-pm-cache-redis-0-7-3-package-tgz.lock
+290 silly gunzTarPerm modes [ '755', '644' ]
+291 silly gunzTarPerm extractEntry package.json
+292 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+293 silly gunzTarPerm extractEntry .npmignore
+294 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+295 silly gunzTarPerm extractEntry README.md
+296 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+297 silly gunzTarPerm extractEntry diff_multi_bench_output.js
+298 silly gunzTarPerm modified mode [ 'diff_multi_bench_output.js', 438, 420 ]
+299 silly gunzTarPerm extractEntry generate_commands.js
+300 silly gunzTarPerm modified mode [ 'generate_commands.js', 438, 420 ]
+301 silly gunzTarPerm extractEntry multi_bench.js
+302 silly gunzTarPerm modified mode [ 'multi_bench.js', 438, 420 ]
+303 silly gunzTarPerm extractEntry mem.js
+304 silly gunzTarPerm modified mode [ 'mem.js', 438, 420 ]
+305 silly gunzTarPerm extractEntry test.js
+306 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+307 silly gunzTarPerm extractEntry index.js
+308 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+309 silly gunzTarPerm extractEntry lib/commands.js
+310 silly gunzTarPerm modified mode [ 'lib/commands.js', 438, 420 ]
+311 silly gunzTarPerm extractEntry lib/queue.js
+312 silly gunzTarPerm modified mode [ 'lib/queue.js', 438, 420 ]
+313 silly gunzTarPerm extractEntry lib/to_array.js
+314 silly gunzTarPerm modified mode [ 'lib/to_array.js', 438, 420 ]
+315 silly gunzTarPerm extractEntry lib/util.js
+316 silly gunzTarPerm modified mode [ 'lib/util.js', 438, 420 ]
+317 silly gunzTarPerm extractEntry lib/parser/hiredis.js
+318 silly gunzTarPerm modified mode [ 'lib/parser/hiredis.js', 438, 420 ]
+319 silly gunzTarPerm extractEntry lib/parser/javascript.js
+320 silly gunzTarPerm modified mode [ 'lib/parser/javascript.js', 438, 420 ]
+321 silly gunzTarPerm extractEntry benches/buffer_bench.js
+322 silly gunzTarPerm modified mode [ 'benches/buffer_bench.js', 438, 420 ]
+323 silly gunzTarPerm extractEntry benches/hiredis_parser.js
+324 silly gunzTarPerm modified mode [ 'benches/hiredis_parser.js', 438, 420 ]
+325 silly gunzTarPerm extractEntry benches/reconnect_test.js
+326 silly gunzTarPerm modified mode [ 'benches/reconnect_test.js', 438, 420 ]
+327 silly gunzTarPerm extractEntry benches/re_sub_test.js
+328 silly gunzTarPerm modified mode [ 'benches/re_sub_test.js', 438, 420 ]
+329 silly gunzTarPerm extractEntry benches/sub_quit_test.js
+330 silly gunzTarPerm modified mode [ 'benches/sub_quit_test.js', 438, 420 ]
+331 silly gunzTarPerm extractEntry benches/stress/codec.js
+332 silly gunzTarPerm modified mode [ 'benches/stress/codec.js', 438, 420 ]
+333 silly gunzTarPerm extractEntry benches/stress/pubsub/pub.js
+334 silly gunzTarPerm modified mode [ 'benches/stress/pubsub/pub.js', 438, 420 ]
+335 silly gunzTarPerm extractEntry benches/stress/pubsub/server.js
+336 silly gunzTarPerm modified mode [ 'benches/stress/pubsub/server.js', 438, 420 ]
+337 silly gunzTarPerm extractEntry benches/stress/pubsub/run
+338 silly gunzTarPerm modified mode [ 'benches/stress/pubsub/run', 438, 420 ]
+339 silly gunzTarPerm extractEntry benches/stress/rpushblpop/pub.js
+340 silly gunzTarPerm modified mode [ 'benches/stress/rpushblpop/pub.js', 438, 420 ]
+341 silly gunzTarPerm extractEntry benches/stress/rpushblpop/server.js
+342 silly gunzTarPerm modified mode [ 'benches/stress/rpushblpop/server.js', 438, 420 ]
+343 silly gunzTarPerm extractEntry benches/stress/rpushblpop/run
+344 silly gunzTarPerm modified mode [ 'benches/stress/rpushblpop/run', 438, 420 ]
+345 silly gunzTarPerm extractEntry benches/stress/speed/speed.js
+346 silly gunzTarPerm modified mode [ 'benches/stress/speed/speed.js', 438, 420 ]
+347 silly gunzTarPerm extractEntry benches/stress/speed/00
+348 silly gunzTarPerm modified mode [ 'benches/stress/speed/00', 438, 420 ]
+349 silly gunzTarPerm extractEntry benches/stress/speed/plot
+350 silly gunzTarPerm modified mode [ 'benches/stress/speed/plot', 438, 420 ]
+351 silly gunzTarPerm extractEntry benches/stress/speed/size-rate.png
+352 silly gunzTarPerm modified mode [ 'benches/stress/speed/size-rate.png', 438, 420 ]
+353 silly gunzTarPerm extractEntry examples/auth.js
+354 silly gunzTarPerm modified mode [ 'examples/auth.js', 438, 420 ]
+355 silly gunzTarPerm extractEntry examples/mget.js
+356 silly gunzTarPerm modified mode [ 'examples/mget.js', 438, 420 ]
+357 silly gunzTarPerm extractEntry examples/monitor.js
+358 silly gunzTarPerm modified mode [ 'examples/monitor.js', 438, 420 ]
+359 silly gunzTarPerm extractEntry examples/multi.js
+360 silly gunzTarPerm modified mode [ 'examples/multi.js', 438, 420 ]
+361 silly gunzTarPerm extractEntry examples/file.js
+362 silly gunzTarPerm modified mode [ 'examples/file.js', 438, 420 ]
+363 silly gunzTarPerm extractEntry examples/psubscribe.js
+364 silly gunzTarPerm modified mode [ 'examples/psubscribe.js', 438, 420 ]
+365 silly gunzTarPerm extractEntry examples/pub_sub.js
+366 silly gunzTarPerm modified mode [ 'examples/pub_sub.js', 438, 420 ]
+367 silly gunzTarPerm extractEntry examples/simple.js
+368 silly gunzTarPerm modified mode [ 'examples/simple.js', 438, 420 ]
+369 silly gunzTarPerm extractEntry examples/sort.js
+370 silly gunzTarPerm modified mode [ 'examples/sort.js', 438, 420 ]
+371 silly gunzTarPerm extractEntry examples/subqueries.js
+372 silly gunzTarPerm modified mode [ 'examples/subqueries.js', 438, 420 ]
+373 silly gunzTarPerm extractEntry examples/extend.js
+374 silly gunzTarPerm modified mode [ 'examples/extend.js', 438, 420 ]
+375 silly gunzTarPerm extractEntry examples/subquery.js
+376 silly gunzTarPerm modified mode [ 'examples/subquery.js', 438, 420 ]
+377 silly gunzTarPerm extractEntry examples/eval.js
+378 silly gunzTarPerm modified mode [ 'examples/eval.js', 438, 420 ]
+379 silly gunzTarPerm extractEntry examples/unix_socket.js
+380 silly gunzTarPerm modified mode [ 'examples/unix_socket.js', 438, 420 ]
+381 silly gunzTarPerm extractEntry examples/backpressure_drain.js
+382 silly gunzTarPerm modified mode [ 'examples/backpressure_drain.js', 438, 420 ]
+383 silly gunzTarPerm extractEntry examples/web_server.js
+384 silly gunzTarPerm modified mode [ 'examples/web_server.js', 438, 420 ]
+385 silly gunzTarPerm extractEntry examples/multi2.js
+386 silly gunzTarPerm modified mode [ 'examples/multi2.js', 438, 420 ]
+387 silly gunzTarPerm extractEntry changelog.md
+388 silly gunzTarPerm modified mode [ 'changelog.md', 438, 420 ]
+389 verbose read json C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package\package.json
+390 silly lockFile 7f3dc7df-ta-npm-cache-redis-0-7-3-package C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package
+391 silly lockFile 7f3dc7df-ta-npm-cache-redis-0-7-3-package C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package
+392 silly lockFile ea19f368-pm-cache-redis-0-7-3-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz
+393 silly lockFile ea19f368-pm-cache-redis-0-7-3-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz
+394 verbose from cache C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package\package.json
+395 verbose chmod C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz 644
+396 silly chown skipping for windows C:\Documents and Settings\Administrator\Application Data\npm-cache\redis\0.7.3\package.tgz
+397 silly lockFile c3ea32a4--npmjs-org-redis-redis-0-7-3-tgz https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+398 silly lockFile c3ea32a4--npmjs-org-redis-redis-0-7-3-tgz https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+399 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+400 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+401 http 200 https://registry.npmjs.org/policyfile/0.0.4
+402 silly registry.get cb [ 200,
+402 silly registry.get   { date: 'Thu, 27 Mar 2014 07:04:14 GMT',
+402 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+402 silly registry.get     etag: '"EPXFOVDKB3BRZ526AEVFY5ON"',
+402 silly registry.get     'content-type': 'application/json',
+402 silly registry.get     via: '1.1 varnish',
+402 silly registry.get     'cache-control': 'max-age=1',
+402 silly registry.get     'content-length': '1010',
+402 silly registry.get     'accept-ranges': 'bytes',
+402 silly registry.get     age: '83',
+402 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-ty67-TYO',
+402 silly registry.get     'x-cache': 'MISS, HIT',
+402 silly registry.get     'x-cache-hits': '0, 1',
+402 silly registry.get     'x-timer': 'S1395893483.254191160,VS0,VS-717,VE-702,VE10371726',
+402 silly registry.get     vary: 'Accept',
+402 silly registry.get     'keep-alive': 'timeout=10, max=50',
+402 silly registry.get     connection: 'Keep-Alive' } ]
+403 silly lockFile 38b97101--policyfile-policyfile-0-0-4-tgz https://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz
+404 verbose lock https://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\38b97101--policyfile-policyfile-0-0-4-tgz.lock
+405 verbose addRemoteTarball [ 'https://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz',
+405 verbose addRemoteTarball   'd6b82ead98ae79ebe228e2daf5903311ec982e4d' ]
+406 info retry fetch attempt 1 at 15:04:25
+407 verbose fetch to= C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\tmp.tgz
+408 http GET https://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz
+409 http 200 https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz
+410 verbose tar unpack C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\tmp.tgz
+411 silly lockFile 99865b04-59850-0-4763375772163272-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package
+412 verbose lock C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package C:\Documents and Settings\Administrator\Application Data\npm-cache\99865b04-59850-0-4763375772163272-package.lock
+413 silly lockFile 8fe1be10-59850-0-4763375772163272-tmp-tgz C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\tmp.tgz
+414 verbose lock C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\tmp.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\8fe1be10-59850-0-4763375772163272-tmp-tgz.lock
+415 silly gunzTarPerm modes [ '755', '644' ]
+416 silly gunzTarPerm extractEntry package.json
+417 silly gunzTarPerm extractEntry .npmignore
+418 silly gunzTarPerm extractEntry README.md
+419 silly gunzTarPerm extractEntry lib/base64id.js
+420 verbose read json C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package\package.json
+421 silly lockFile 99865b04-59850-0-4763375772163272-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package
+422 silly lockFile 99865b04-59850-0-4763375772163272-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package
+423 silly lockFile 8fe1be10-59850-0-4763375772163272-tmp-tgz C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\tmp.tgz
+424 silly lockFile 8fe1be10-59850-0-4763375772163272-tmp-tgz C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\tmp.tgz
+425 verbose from cache C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package\package.json
+426 verbose tar pack [ 'C:\\Documents and Settings\\Administrator\\Application Data\\npm-cache\\base64id\\0.1.0\\package.tgz',
+426 verbose tar pack   'C:\\DOCUME~1\\ADMINI~1\\LOCALS~1\\Temp\\npm-1580\\1395903859850-0.4763375772163272\\package' ]
+427 verbose tarball C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz
+428 verbose folder C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package
+429 silly lockFile 99865b04-59850-0-4763375772163272-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package
+430 verbose lock C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package C:\Documents and Settings\Administrator\Application Data\npm-cache\99865b04-59850-0-4763375772163272-package.lock
+431 silly lockFile 30d0e2dd-cache-base64id-0-1-0-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz
+432 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\30d0e2dd-cache-base64id-0-1-0-package-tgz.lock
+433 silly lockFile 99865b04-59850-0-4763375772163272-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package
+434 silly lockFile 99865b04-59850-0-4763375772163272-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903859850-0.4763375772163272\package
+435 silly lockFile 30d0e2dd-cache-base64id-0-1-0-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz
+436 silly lockFile 30d0e2dd-cache-base64id-0-1-0-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz
+437 silly lockFile 89c8b1ae-npm-cache-base64id-0-1-0-package C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package
+438 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package C:\Documents and Settings\Administrator\Application Data\npm-cache\89c8b1ae-npm-cache-base64id-0-1-0-package.lock
+439 silly lockFile 89c8b1ae-npm-cache-base64id-0-1-0-package C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package
+440 silly lockFile 89c8b1ae-npm-cache-base64id-0-1-0-package C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package
+441 verbose tar unpack C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz
+442 silly lockFile 89c8b1ae-npm-cache-base64id-0-1-0-package C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package
+443 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package C:\Documents and Settings\Administrator\Application Data\npm-cache\89c8b1ae-npm-cache-base64id-0-1-0-package.lock
+444 silly lockFile 30d0e2dd-cache-base64id-0-1-0-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz
+445 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\30d0e2dd-cache-base64id-0-1-0-package-tgz.lock
+446 silly gunzTarPerm modes [ '755', '644' ]
+447 silly gunzTarPerm extractEntry package.json
+448 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+449 silly gunzTarPerm extractEntry .npmignore
+450 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+451 silly gunzTarPerm extractEntry README.md
+452 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+453 silly gunzTarPerm extractEntry lib/base64id.js
+454 silly gunzTarPerm modified mode [ 'lib/base64id.js', 438, 420 ]
+455 verbose read json C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package\package.json
+456 silly lockFile 89c8b1ae-npm-cache-base64id-0-1-0-package C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package
+457 silly lockFile 89c8b1ae-npm-cache-base64id-0-1-0-package C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package
+458 silly lockFile 30d0e2dd-cache-base64id-0-1-0-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz
+459 silly lockFile 30d0e2dd-cache-base64id-0-1-0-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz
+460 verbose from cache C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package\package.json
+461 verbose chmod C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz 644
+462 silly chown skipping for windows C:\Documents and Settings\Administrator\Application Data\npm-cache\base64id\0.1.0\package.tgz
+463 silly lockFile 25dd8f34--org-base64id-base64id-0-1-0-tgz https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz
+464 silly lockFile 25dd8f34--org-base64id-base64id-0-1-0-tgz https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz
+465 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+466 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+467 http 200 https://registry.npmjs.org/socket.io-client/0.9.16
+468 silly registry.get cb [ 200,
+468 silly registry.get   { date: 'Thu, 27 Mar 2014 07:04:22 GMT',
+468 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+468 silly registry.get     etag: '"51W5ESTWHVCB8IGZH4DDQ7TY1"',
+468 silly registry.get     'content-type': 'application/json',
+468 silly registry.get     via: '1.1 varnish',
+468 silly registry.get     'cache-control': 'max-age=1',
+468 silly registry.get     'content-length': '1289',
+468 silly registry.get     'accept-ranges': 'bytes',
+468 silly registry.get     age: '49',
+468 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-ty68-TYO',
+468 silly registry.get     'x-cache': 'MISS, HIT',
+468 silly registry.get     'x-cache-hits': '0, 1',
+468 silly registry.get     'x-timer': 'S1395899100.869486332,VS0,VS-557,VE-463,VE4761963',
+468 silly registry.get     vary: 'Accept',
+468 silly registry.get     'keep-alive': 'timeout=10, max=50',
+468 silly registry.get     connection: 'Keep-Alive' } ]
+469 silly lockFile 83592abd-ient-socket-io-client-0-9-16-tgz https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.16.tgz
+470 verbose lock https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.16.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\83592abd-ient-socket-io-client-0-9-16-tgz.lock
+471 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.16.tgz',
+471 verbose addRemoteTarball   '4da7515c5e773041d1b423970415bcc430f35fc6' ]
+472 info retry fetch attempt 1 at 15:04:33
+473 verbose fetch to= C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903873716-0.6248503678943962\tmp.tgz
+474 http GET https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.16.tgz
+475 http 200 https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.16.tgz
+476 http 200 https://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz
+477 verbose tar unpack C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\tmp.tgz
+478 silly lockFile 3b0c6ba3-865819-0-862998144235462-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package
+479 verbose lock C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package C:\Documents and Settings\Administrator\Application Data\npm-cache\3b0c6ba3-865819-0-862998144235462-package.lock
+480 silly lockFile 8658cad6-865819-0-862998144235462-tmp-tgz C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\tmp.tgz
+481 verbose lock C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\tmp.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\8658cad6-865819-0-862998144235462-tmp-tgz.lock
+482 silly gunzTarPerm modes [ '755', '644' ]
+483 silly gunzTarPerm extractEntry .gitignore
+484 silly gunzTarPerm extractEntry index.js
+485 silly gunzTarPerm extractEntry LICENSE
+486 silly gunzTarPerm extractEntry Makefile
+487 silly gunzTarPerm extractEntry package.json
+488 silly gunzTarPerm extractEntry README.md
+489 silly gunzTarPerm extractEntry doc/index.html
+490 silly gunzTarPerm extractEntry examples/basic.fallback.js
+491 silly gunzTarPerm extractEntry examples/basic.js
+492 silly gunzTarPerm extractEntry lib/server.js
+493 silly gunzTarPerm extractEntry tests/unit.test.js
+494 silly gunzTarPerm extractEntry tests/ssl/ssl.crt
+495 silly gunzTarPerm extractEntry tests/ssl/ssl.private.key
+496 verbose read json C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package\package.json
+497 warn package.json policyfile@0.0.4 No repository field.
+498 warn package.json policyfile@0.0.4 'repositories' (plural) Not supported.
+498 warn package.json Please pick one as the 'repository' field
+499 silly lockFile 3b0c6ba3-865819-0-862998144235462-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package
+500 silly lockFile 3b0c6ba3-865819-0-862998144235462-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package
+501 silly lockFile 8658cad6-865819-0-862998144235462-tmp-tgz C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\tmp.tgz
+502 silly lockFile 8658cad6-865819-0-862998144235462-tmp-tgz C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\tmp.tgz
+503 verbose from cache C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package\package.json
+504 verbose tar pack [ 'C:\\Documents and Settings\\Administrator\\Application Data\\npm-cache\\policyfile\\0.0.4\\package.tgz',
+504 verbose tar pack   'C:\\DOCUME~1\\ADMINI~1\\LOCALS~1\\Temp\\npm-1580\\1395903865819-0.862998144235462\\package' ]
+505 verbose tarball C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz
+506 verbose folder C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package
+507 silly lockFile 3b0c6ba3-865819-0-862998144235462-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package
+508 verbose lock C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package C:\Documents and Settings\Administrator\Application Data\npm-cache\3b0c6ba3-865819-0-862998144235462-package.lock
+509 silly lockFile 2c249f65-che-policyfile-0-0-4-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz
+510 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\2c249f65-che-policyfile-0-0-4-package-tgz.lock
+511 silly lockFile 3b0c6ba3-865819-0-862998144235462-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package
+512 silly lockFile 3b0c6ba3-865819-0-862998144235462-package C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903865819-0.862998144235462\package
+513 silly lockFile 2c249f65-che-policyfile-0-0-4-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz
+514 silly lockFile 2c249f65-che-policyfile-0-0-4-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz
+515 silly lockFile af63954d-m-cache-policyfile-0-0-4-package C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package
+516 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package C:\Documents and Settings\Administrator\Application Data\npm-cache\af63954d-m-cache-policyfile-0-0-4-package.lock
+517 silly lockFile af63954d-m-cache-policyfile-0-0-4-package C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package
+518 silly lockFile af63954d-m-cache-policyfile-0-0-4-package C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package
+519 verbose tar unpack C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz
+520 silly lockFile af63954d-m-cache-policyfile-0-0-4-package C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package
+521 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package C:\Documents and Settings\Administrator\Application Data\npm-cache\af63954d-m-cache-policyfile-0-0-4-package.lock
+522 silly lockFile 2c249f65-che-policyfile-0-0-4-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz
+523 verbose lock C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\2c249f65-che-policyfile-0-0-4-package-tgz.lock
+524 silly gunzTarPerm modes [ '755', '644' ]
+525 silly gunzTarPerm extractEntry package.json
+526 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+527 silly gunzTarPerm extractEntry .npmignore
+528 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+529 silly gunzTarPerm extractEntry README.md
+530 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+531 silly gunzTarPerm extractEntry LICENSE
+532 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+533 silly gunzTarPerm extractEntry index.js
+534 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+535 silly gunzTarPerm extractEntry doc/index.html
+536 silly gunzTarPerm modified mode [ 'doc/index.html', 438, 420 ]
+537 silly gunzTarPerm extractEntry examples/basic.fallback.js
+538 silly gunzTarPerm modified mode [ 'examples/basic.fallback.js', 438, 420 ]
+539 silly gunzTarPerm extractEntry examples/basic.js
+540 silly gunzTarPerm modified mode [ 'examples/basic.js', 438, 420 ]
+541 silly gunzTarPerm extractEntry lib/server.js
+542 silly gunzTarPerm modified mode [ 'lib/server.js', 438, 420 ]
+543 silly gunzTarPerm extractEntry Makefile
+544 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+545 silly gunzTarPerm extractEntry tests/unit.test.js
+546 silly gunzTarPerm modified mode [ 'tests/unit.test.js', 438, 420 ]
+547 silly gunzTarPerm extractEntry tests/ssl/ssl.crt
+548 silly gunzTarPerm modified mode [ 'tests/ssl/ssl.crt', 438, 420 ]
+549 silly gunzTarPerm extractEntry tests/ssl/ssl.private.key
+550 silly gunzTarPerm modified mode [ 'tests/ssl/ssl.private.key', 438, 420 ]
+551 verbose read json C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package\package.json
+552 silly lockFile af63954d-m-cache-policyfile-0-0-4-package C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package
+553 silly lockFile af63954d-m-cache-policyfile-0-0-4-package C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package
+554 silly lockFile 2c249f65-che-policyfile-0-0-4-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz
+555 silly lockFile 2c249f65-che-policyfile-0-0-4-package-tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz
+556 verbose from cache C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package\package.json
+557 verbose chmod C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz 644
+558 silly chown skipping for windows C:\Documents and Settings\Administrator\Application Data\npm-cache\policyfile\0.0.4\package.tgz
+559 silly lockFile 38b97101--policyfile-policyfile-0-0-4-tgz https://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz
+560 silly lockFile 38b97101--policyfile-policyfile-0-0-4-tgz https://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz
+561 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+562 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+563 silly lockFile 83592abd-ient-socket-io-client-0-9-16-tgz https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.16.tgz
+564 silly lockFile 83592abd-ient-socket-io-client-0-9-16-tgz https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.16.tgz
+565 silly lockFile c81dc0af-socket-io-client-0-9-16 socket.io-client@0.9.16
+566 silly lockFile c81dc0af-socket-io-client-0-9-16 socket.io-client@0.9.16
+567 verbose about to build D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io
+568 info D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io unbuild
+569 verbose from cache D:\Soft\nodejs\testnodejs\webim\node_modules\socket.io\package.json
+570 info preuninstall socket.io@0.9.16
+571 info uninstall socket.io@0.9.16
+572 verbose true,D:\Soft\nodejs\testnodejs\webim\node_modules,D:\Soft\nodejs\testnodejs\webim\node_modules unbuild socket.io@0.9.16
+573 info postuninstall socket.io@0.9.16
+574 error Error: shasum check failed for C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\npm-1580\1395903873716-0.6248503678943962\tmp.tgz
+574 error Expected: 4da7515c5e773041d1b423970415bcc430f35fc6
+574 error Actual:   b9aab5b69966aae07702a6cb496d84db3906b4e9
+574 error     at D:\Soft\nodejs\node_modules\npm\node_modules\sha\index.js:32:8
+574 error     at ReadStream.<anonymous> (D:\Soft\nodejs\node_modules\npm\node_modules\sha\index.js:61:7)
+574 error     at ReadStream.EventEmitter.emit (events.js:117:20)
+574 error     at _stream_readable.js:910:16
+574 error     at process._tickCallback (node.js:415:13)
+575 error If you need help, you may report this log at:
+575 error     <http://github.com/isaacs/npm/issues>
+575 error or email it to:
+575 error     <npm-@googlegroups.com>
+576 error System Windows_NT 5.1.2600
+577 error command "D:\\Soft\\nodejs\\\\node.exe" "D:\\Soft\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "socket.io"
+578 error cwd D:\Soft\nodejs\testnodejs\webim
+579 error node -v v0.10.7
+580 error npm -v 1.2.21
+581 verbose exit [ 1, true ]
