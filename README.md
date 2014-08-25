@@ -5,4 +5,4 @@
 
 #Firefox 浏览器
 
-![](http://git.oschina.net/uploads/images/2014/0825/141353_62918bc3_49495.jpeg）
+![](http://git.oschina.net/uploads/images/2014/0825/141353_62918bc3_49495.jpeg)
